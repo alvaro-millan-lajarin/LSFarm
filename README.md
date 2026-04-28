@@ -10,14 +10,9 @@ Proyecto embebido para microcontrolador **PIC18** desarrollado con **MPLAB X IDE
 
 | Descripción | Imagen |
 |---|---|
-| Pantalla LCD durante el juego | *(añadir captura)* |
-| Montaje del hardware | *(añadir captura)* |
-| Interfaz serie / terminal | *(añadir captura)* |
-
-Para añadir una captura:
-1. Crea la carpeta `screenshots/` en la raíz del proyecto.
-2. Copia tu imagen allí (p.ej. `screenshots/lcd_juego.png`).
-3. Sustituye `*(añadir captura)*` por `![descripción](screenshots/lcd_juego.png)`.
+| Pantalla LCD durante el juego | ![descripción](screenshots/lcd_juego.png) |
+| Montaje del hardware | ![descripción](screenshots/lcd_juego.png) |
+| Interfaz serie / terminal | ![descripción](screenshots/interfaz.png) |
 
 ---
 
