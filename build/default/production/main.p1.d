@@ -1,0 +1,19 @@
+build/default/production/main.p1:  \
+main.c  \
+SIO2.h  \
+ADC2.h  \
+game.h  \
+SELECT_BUTTON.h  \
+TIMER2.h  \
+DATA_TIME.h  \
+DO_COMMAND.h  \
+COMMANDS.h  \
+TTL_MANUAL_RECIEVE.h  \
+TTL_MANUAL_SEND.h  \
+INITIALIZE.h  \
+FARM.h  \
+CREATE_STRING_TO_SEND.h  \
+EEPROM.h  \
+PRODUCTS.h  \
+LcTLCD.h  \
+LED2.h 

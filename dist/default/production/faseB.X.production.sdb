@@ -1,0 +1,1820 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4321 ]
+[d frameptr 4065 ]
+"6 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\SIO2.c
+[e E2693 . `uc
+SEND_NONE 0
+SEND_DATA_ANIMAL 1
+SEND_DATA_PRODUCTS 2
+SEND_SELECT 3
+SEND_RIGHT 4
+SEND_FINISH 5
+SEND_UP 6
+SEND_DOWN 7
+SEND_LEFT 8
+SEND_SLEEP_SUCCESSFUL 9
+SEND_SLEEP_UNSUCCESSFUL 10
+]
+"104 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\ADC2.c
+[e E2701 . `uc
+SEND_NONE 0
+SEND_DATA_ANIMAL 1
+SEND_DATA_PRODUCTS 2
+SEND_SELECT 3
+SEND_RIGHT 4
+SEND_FINISH 5
+SEND_UP 6
+SEND_DOWN 7
+SEND_LEFT 8
+SEND_SLEEP_SUCCESSFUL 9
+SEND_SLEEP_UNSUCCESSFUL 10
+]
+"59 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\SELECT_BUTTON.c
+[e E2693 . `uc
+SEND_NONE 0
+SEND_DATA_ANIMAL 1
+SEND_DATA_PRODUCTS 2
+SEND_SELECT 3
+SEND_RIGHT 4
+SEND_FINISH 5
+SEND_UP 6
+SEND_DOWN 7
+SEND_LEFT 8
+SEND_SLEEP_SUCCESSFUL 9
+SEND_SLEEP_UNSUCCESSFUL 10
+]
+"57 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\FARM.c
+[e E2693 . `uc
+COW 0
+PIG 1
+HORSE 2
+CHICKEN 3
+]
+"25 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\DO_COMMAND.c
+[e E2693 . `uc
+CMD_NONE 0
+CMD_INIT 1
+CMD_GET_ANIMALS 2
+CMD_GET_PRODUCTS 3
+CMD_CONSUME 4
+CMD_RESET 5
+CMD_START_REBELLION 6
+CMD_STOP_REBELLION 7
+CMD_SLEEP 8
+CMD_UNKNOWN 9
+]
+"89
+[e E2742 . `uc
+SEND_NONE 0
+SEND_DATA_ANIMAL 1
+SEND_DATA_PRODUCTS 2
+SEND_SELECT 3
+SEND_RIGHT 4
+SEND_FINISH 5
+SEND_UP 6
+SEND_DOWN 7
+SEND_LEFT 8
+SEND_SLEEP_SUCCESSFUL 9
+SEND_SLEEP_UNSUCCESSFUL 10
+]
+"15 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\ADC2.c
+[v _sleepReset sleepReset `(v  1 e 1 0 ]
+"18
+[v _getSleep getSleep `(uc  1 e 1 0 ]
+"21
+[v _AD_Init AD_Init `(v  1 e 1 0 ]
+"32
+[v _AD_IniciaConversio AD_IniciaConversio `(v  1 e 1 0 ]
+"37
+[v _AD_HiHaMostra AD_HiHaMostra `(uc  1 e 1 0 ]
+"45
+[v _AD_GetMostra AD_GetMostra `(ui  1 e 2 0 ]
+"50
+[v _motorADC motorADC `(v  1 e 1 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"19 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\COMMANDS.c
+[v _getCmdReady getCmdReady `(uc  1 e 1 0 ]
+"23
+[v _getData getData `(*.39uc  1 e 2 0 ]
+"26
+[v _getCommand getCommand `(*.39uc  1 e 2 0 ]
+"29
+[v _resetCommand resetCommand `(v  1 e 1 0 ]
+"36
+[v _motorRecieveCommand motorRecieveCommand `(v  1 e 1 0 ]
+"33 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\DATA_TIME.c
+[v _DT_GetDia DT_GetDia `(uc  1 e 1 0 ]
+"37
+[v _DT_GetMes DT_GetMes `(uc  1 e 1 0 ]
+"41
+[v _DT_GetHora DT_GetHora `(uc  1 e 1 0 ]
+"45
+[v _DT_GetMin DT_GetMin `(uc  1 e 1 0 ]
+"49
+[v _DT_GetSeg DT_GetSeg `(uc  1 e 1 0 ]
+"53
+[v _incrementarTiempo incrementarTiempo `(v  1 e 1 0 ]
+"78
+[v _dateTimeOk dateTimeOk `(uc  1 e 1 0 ]
+"82
+[v _resetDataTime resetDataTime `(v  1 e 1 0 ]
+"86
+[v _motorDataTime motorDataTime `(v  1 e 1 0 ]
+"25 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\DO_COMMAND.c
+[v _COMMAND_Parse COMMAND_Parse `(E2693  1 e 1 0 ]
+"42
+[v _findAnimalIndex findAnimalIndex `(uc  1 s 1 findAnimalIndex ]
+"67
+[v _DO_Reset DO_Reset `(v  1 e 1 0 ]
+"76
+[v _handle_GetAnimals handle_GetAnimals `(E2693  1 e 1 0 ]
+"108
+[v _motorParseCommand motorParseCommand `(v  1 e 1 0 ]
+"14 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\EEPROM.c
+[v _EEPROM_IsBusy EEPROM_IsBusy `(uc  1 e 1 0 ]
+"18
+[v _eepromEnqueue eepromEnqueue `(v  1 e 1 0 ]
+"26
+[v _eepromWriteHMS eepromWriteHMS `(v  1 s 1 eepromWriteHMS ]
+"32
+[v _EEPROM_WriteAnimal EEPROM_WriteAnimal `(v  1 e 1 0 ]
+"40
+[v _EEPROM_WriteAnimalSleep EEPROM_WriteAnimalSleep `(v  1 e 1 0 ]
+"16 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X/EEPROM.h
+[s S1412 . 6 `uc 1 tipus 1 0 `uc 1 dia 1 1 `uc 1 mes 1 2 `uc 1 hora 1 3 `uc 1 min 1 4 `uc 1 seg 1 5 ]
+"44 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\EEPROM.c
+[v _EEPROM_ReadAnimal EEPROM_ReadAnimal `(S1412  1 e 6 0 ]
+"61
+[v _EEPROM_GetEstat EEPROM_GetEstat `(uc  1 e 1 0 ]
+"74
+[v _motorEEprom motorEEprom `(v  1 e 1 0 ]
+"31 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\FARM.c
+[v _getNumUltimoAnimal getNumUltimoAnimal `(uc  1 e 1 0 ]
+"32
+[v _getFarmNameReady getFarmNameReady `(uc  1 e 1 0 ]
+"33
+[v _resetNuevoAnimal resetNuevoAnimal `(v  1 e 1 0 ]
+"34
+[v _getFarmName getFarmName `(*.39uc  1 e 2 0 ]
+"35
+[v _hayNuevoAnimal hayNuevoAnimal `(uc  1 e 1 0 ]
+"36
+[v _getTipusUltimoAnimal getTipusUltimoAnimal `(uc  1 e 1 0 ]
+"37
+[v _getNumTotalAnimals getNumTotalAnimals `(uc  1 e 1 0 ]
+"39
+[v _resetFarm resetFarm `(v  1 e 1 0 ]
+"48
+[v _setStartFarm setStartFarm `(v  1 e 1 0 ]
+"49
+[v _tempsFarmsOk tempsFarmsOk `(uc  1 e 1 0 ]
+"50
+[v _setTempsFarmsOk setTempsFarmsOk `(v  1 e 1 0 ]
+"52
+[v _DO_SetFarmName DO_SetFarmName `(v  1 e 1 0 ]
+"57
+[v _DO_SetCowTime DO_SetCowTime `(v  1 e 1 0 ]
+"58
+[v _DO_SetHorseTime DO_SetHorseTime `(v  1 e 1 0 ]
+"59
+[v _DO_SetPigTime DO_SetPigTime `(v  1 e 1 0 ]
+"60
+[v _DO_SetHenTime DO_SetHenTime `(v  1 e 1 0 ]
+"62
+[v _crearAnimal crearAnimal `(v  1 e 1 0 ]
+"72
+[v _motorFarm motorFarm `(v  1 e 1 0 ]
+"20 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\game.c
+[v _startGameOk startGameOk `(uc  1 e 1 0 ]
+"23
+[v _resetGame resetGame `(v  1 e 1 0 ]
+"27
+[v _motorGame motorGame `(v  1 e 1 0 ]
+"19 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\INITIALIZE.c
+[v _DO_Initialize DO_Initialize `(v  1 e 1 0 ]
+"25
+[v _motorInitialize motorInitialize `(v  1 e 1 0 ]
+"22 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\LcTLCD.c
+[v _addMsgToQueue addMsgToQueue `(v  1 e 1 0 ]
+"34 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X/LcTLCD.h
+[s S24 . 3 `uc 1 tipo 1 0 `uc 1 nombre 1 1 `uc 1 num 1 2 ]
+"29 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\LcTLCD.c
+[v _pop pop `(S24  1 s 3 pop ]
+"54
+[v _cantaNibble cantaNibble `(v  1 s 1 cantaNibble ]
+"59
+[v _esperaMs esperaMs `(v  1 s 1 esperaMs ]
+"65
+[v _cantaByte cantaByte `(v  1 s 1 cantaByte ]
+"83
+[v _LcInit LcInit `(v  1 e 1 0 ]
+"101
+[v _LcClear LcClear `(v  1 e 1 0 ]
+"106
+[v _LcGotoXY LcGotoXY `(v  1 e 1 0 ]
+"110
+[v _LcPutChar LcPutChar `(v  1 e 1 0 ]
+"115
+[v _MotorLCD MotorLCD `(v  1 e 1 0 ]
+"13 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\LED2.c
+[v _stopHeartBeat stopHeartBeat `(v  1 e 1 0 ]
+"16
+[v _startHeartBeat startHeartBeat `(v  1 e 1 0 ]
+"20
+[v _motorHeartBeat motorHeartBeat `(v  1 e 1 0 ]
+"38 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\main.c
+[v _MyRSI MyRSI `IIH(v  1 e 1 0 ]
+"48
+[v _main main `(v  1 e 1 0 ]
+"84
+[v _initInterrupts initInterrupts `(v  1 e 1 0 ]
+"94
+[v _initTimers initTimers `(v  1 e 1 0 ]
+"104
+[v _initPorts initPorts `(v  1 e 1 0 ]
+"43 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\PRODUCTS.c
+[v _resetNuevoProducto resetNuevoProducto `(v  1 e 1 0 ]
+"44
+[v _hayNuevoProducto hayNuevoProducto `(uc  1 e 1 0 ]
+"45
+[v _getTipusUltimoProducto getTipusUltimoProducto `(uc  1 e 1 0 ]
+"46
+[v _getNumUltimoProducto getNumUltimoProducto `(uc  1 e 1 0 ]
+"48
+[v _getNumLlet getNumLlet `(uc  1 e 1 0 ]
+"51
+[v _getNumPernil getNumPernil `(uc  1 e 1 0 ]
+"54
+[v _getNumPinzells getNumPinzells `(uc  1 e 1 0 ]
+"57
+[v _getNumHuevos getNumHuevos `(uc  1 e 1 0 ]
+"60
+[v _setStartProducts setStartProducts `(v  1 e 1 0 ]
+"63
+[v _resetProducts resetProducts `(v  1 e 1 0 ]
+"71
+[v _stopRebelion stopRebelion `(v  1 e 1 0 ]
+"74
+[v _startRebelion startRebelion `(v  1 e 1 0 ]
+"77
+[v _consume consume `(v  1 e 1 0 ]
+"81
+[v _motorProducts motorProducts `(v  1 e 1 0 ]
+"20 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\SELECT_BUTTON.c
+[v _motorButton motorButton `(v  1 e 1 0 ]
+"58
+[v _buttonPressed buttonPressed `(v  1 e 1 0 ]
+"18 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\SIO2.c
+[v _sendNum sendNum `(uc  1 s 1 sendNum ]
+"36
+[v _sendStr sendStr `(uc  1 s 1 sendStr ]
+"61
+[v _SIO_Init SIO_Init `(v  1 e 1 0 ]
+"69
+[v _SIO_TXAvail SIO_TXAvail `(uc  1 e 1 0 ]
+"70
+[v _SIO_PutChar SIO_PutChar `(v  1 e 1 0 ]
+"72
+[v _nextHead nextHead `(uc  1 e 1 0 ]
+"74
+[v _SIO_HasSpace SIO_HasSpace `(uc  1 e 1 0 ]
+"76
+[v _SIO_SetMsg SIO_SetMsg `(uc  1 e 1 0 ]
+"84
+[v _SIO_SendSimple SIO_SendSimple `(v  1 e 1 0 ]
+"90
+[v _SIO_SendDataAnimal SIO_SendDataAnimal `(v  1 e 1 0 ]
+"99
+[v _SIO_SendDataProducts SIO_SendDataProducts `(v  1 e 1 0 ]
+"110
+[v _motorSIO motorSIO `(v  1 e 1 0 ]
+"171
+[v _SIO_RXAvail SIO_RXAvail `(uc  1 e 1 0 ]
+"172
+[v _SIO_GetChar SIO_GetChar `(uc  1 e 1 0 ]
+"23 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\TIMER2.c
+[v _RSI_Timer0 RSI_Timer0 `(v  1 e 1 0 ]
+"30
+[v _TI_Init TI_Init `(v  1 e 1 0 ]
+"41
+[v _TI_NewTimer TI_NewTimer `(uc  1 e 1 0 ]
+"51
+[v _TI_ResetTics TI_ResetTics `(v  1 e 1 0 ]
+"56
+[v _TI_GetTics TI_GetTics `(ul  1 e 4 0 ]
+"24 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\TTL_MANUAL_RECIEVE.c
+[v _getCharSioManual getCharSioManual `(uc  1 e 1 0 ]
+"28
+[v _charRecivedSioManual charRecivedSioManual `(uc  1 e 1 0 ]
+"36
+[v _HanPasado416us HanPasado416us `(i  1 e 2 0 ]
+"37
+[v _HanPasado624us HanPasado624us `(i  1 e 2 0 ]
+"42
+[v _motorSIORecieve motorSIORecieve `(v  1 e 1 0 ]
+"38 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\TTL_MANUAL_SEND.c
+[v _uartTX uartTX `(v  1 e 1 0 ]
+"46
+[v _HanPasado208usTX HanPasado208usTX `(i  1 e 2 0 ]
+"50
+[v _SIO_Manual_SetFrase SIO_Manual_SetFrase `(v  1 e 1 0 ]
+"61
+[v _motorSIOSend motorSIOSend `(v  1 e 1 0 ]
+"12 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\ADC2.c
+[v _lightValue lightValue `ui  1 s 2 lightValue ]
+"13
+[v _sleep sleep `uc  1 s 1 sleep ]
+[s S1210 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"326 C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h
+[s S1219 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 CCP2 1 0 :1:3 
+`uc 1 KBI0 1 0 :1:4 
+`uc 1 KBI1 1 0 :1:5 
+`uc 1 KBI2 1 0 :1:6 
+`uc 1 KBI3 1 0 :1:7 
+]
+[s S1228 . 1 `uc 1 AN12 1 0 :1:0 
+`uc 1 AN10 1 0 :1:1 
+`uc 1 AN8 1 0 :1:2 
+`uc 1 AN9 1 0 :1:3 
+`uc 1 AN11 1 0 :1:4 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S1237 . 1 `uc 1 FLT0 1 0 :1:0 
+]
+[s S1239 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S1242 . 1 `S1210 1 . 1 0 `S1219 1 . 1 0 `S1228 1 . 1 0 `S1237 1 . 1 0 `S1239 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES1242  1 e 1 @3969 ]
+[s S870 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"506
+[s S1677 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 SCK 1 0 :1:3 
+`uc 1 SDI 1 0 :1:4 
+`uc 1 SDO 1 0 :1:5 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S1686 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 P1A 1 0 :1:2 
+`uc 1 SCL 1 0 :1:3 
+`uc 1 SDA 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S1695 . 1 `uc 1 T1CKI 1 0 :1:0 
+]
+[s S1697 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[u S1701 . 1 `S870 1 . 1 0 `S1677 1 . 1 0 `S1686 1 . 1 0 `S1695 1 . 1 0 `S1697 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES1701  1 e 1 @3970 ]
+[s S821 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"1013
+[s S830 . 1 `uc 1 LA0 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+`uc 1 LA2 1 0 :1:2 
+`uc 1 LA3 1 0 :1:3 
+`uc 1 LA4 1 0 :1:4 
+`uc 1 LA5 1 0 :1:5 
+`uc 1 LA6 1 0 :1:6 
+`uc 1 LA7 1 0 :1:7 
+]
+[u S839 . 1 `S821 1 . 1 0 `S830 1 . 1 0 ]
+[v _LATAbits LATAbits `VES839  1 e 1 @3977 ]
+[s S901 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"1237
+[s S910 . 1 `uc 1 LC0 1 0 :1:0 
+`uc 1 LC1 1 0 :1:1 
+`uc 1 LC2 1 0 :1:2 
+`uc 1 LC3 1 0 :1:3 
+`uc 1 LC4 1 0 :1:4 
+`uc 1 LC5 1 0 :1:5 
+`uc 1 LC6 1 0 :1:6 
+`uc 1 LC7 1 0 :1:7 
+]
+[u S919 . 1 `S901 1 . 1 0 `S910 1 . 1 0 ]
+[v _LATCbits LATCbits `VES919  1 e 1 @3979 ]
+"1322
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+[s S79 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"1349
+[s S88 . 1 `uc 1 LD0 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+`uc 1 LD2 1 0 :1:2 
+`uc 1 LD3 1 0 :1:3 
+`uc 1 LD4 1 0 :1:4 
+`uc 1 LD5 1 0 :1:5 
+`uc 1 LD6 1 0 :1:6 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S97 . 1 `S79 1 . 1 0 `S88 1 . 1 0 ]
+[v _LATDbits LATDbits `VES97  1 e 1 @3980 ]
+"1486
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+[s S781 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"1518
+[s S790 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+[u S799 . 1 `S781 1 . 1 0 `S790 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES799  1 e 1 @3986 ]
+[s S861 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1962
+[u S879 . 1 `S861 1 . 1 0 `S870 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES879  1 e 1 @3988 ]
+"2152
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+[s S39 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"2184
+[s S48 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+[u S57 . 1 `S39 1 . 1 0 `S48 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES57  1 e 1 @3989 ]
+[s S344 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"2702
+[s S353 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[u S357 . 1 `S344 1 . 1 0 `S353 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES357  1 e 1 @3998 ]
+[s S1823 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CFGS 1 0 :1:6 
+`uc 1 EEPGD 1 0 :1:7 
+]
+"3053
+[s S1832 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 EEFS 1 0 :1:6 
+]
+[u S1835 . 1 `S1823 1 . 1 0 `S1832 1 . 1 0 ]
+[v _EECON1bits EECON1bits `VES1835  1 e 1 @4006 ]
+"3098
+[v _EECON2 EECON2 `VEuc  1 e 1 @4007 ]
+"3105
+[v _EEDATA EEDATA `VEuc  1 e 1 @4008 ]
+"3112
+[v _EEADR EEADR `VEuc  1 e 1 @4009 ]
+"3119
+[v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
+"3329
+[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
+"3585
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"3597
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"3609
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"3621
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @4016 ]
+[s S298 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 TXCKP 1 0 :1:4 
+`uc 1 RXDTP 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"4186
+[s S307 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SCKP 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 RCMT 1 0 :1:6 
+]
+[s S312 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RXCKP 1 0 :1:5 
+]
+[s S315 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 W4E 1 0 :1:1 
+]
+[u S318 . 1 `S298 1 . 1 0 `S307 1 . 1 0 `S312 1 . 1 0 `S315 1 . 1 0 ]
+[v _BAUDCONbits BAUDCONbits `VES318  1 e 1 @4024 ]
+"4643
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"4714
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"4799
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+[s S1071 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"4843
+[s S1074 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+]
+[s S1078 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+]
+[s S1085 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S1088 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S1091 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S1094 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[s S1097 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S1100 . 1 `S1071 1 . 1 0 `S1074 1 . 1 0 `S1078 1 . 1 0 `S1085 1 . 1 0 `S1088 1 . 1 0 `S1091 1 . 1 0 `S1094 1 . 1 0 `S1097 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES1100  1 e 1 @4034 ]
+"4925
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"4932
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+[s S672 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"5722
+[s S674 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+[s S677 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+[s S680 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+[s S683 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+[s S686 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 IPEN 1 0 :1:7 
+]
+[s S694 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 SBOREN 1 0 :1:6 
+]
+[u S702 . 1 `S672 1 . 1 0 `S674 1 . 1 0 `S677 1 . 1 0 `S680 1 . 1 0 `S683 1 . 1 0 `S686 1 . 1 0 `S694 1 . 1 0 ]
+[v _RCONbits RCONbits `VES702  1 e 1 @4048 ]
+"6181
+[v _T0CON T0CON `VEuc  1 e 1 @4053 ]
+"6258
+[v _TMR0 TMR0 `VEus  1 e 2 @4054 ]
+[s S741 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"6654
+[s S744 . 1 `uc 1 RBIP 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+[s S753 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RBPU 1 0 :1:7 
+]
+[u S756 . 1 `S741 1 . 1 0 `S744 1 . 1 0 `S753 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES756  1 e 1 @4081 ]
+[s S623 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"6731
+[s S632 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S641 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S645 . 1 `S623 1 . 1 0 `S632 1 . 1 0 `S641 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES645  1 e 1 @4082 ]
+"8680
+[v _TMR0IF TMR0IF `VEb  1 e 0 @32658 ]
+"14 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\COMMANDS.c
+[v _COMMAND COMMAND `[23]uc  1 e 23 0 ]
+"15
+[v _DATA DATA `*.39uc  1 e 2 0 ]
+"17
+[v _cmd_ready cmd_ready `uc  1 e 1 0 ]
+"16 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\DATA_TIME.c
+[v _dia dia `uc  1 s 1 dia ]
+"17
+[v _mes mes `uc  1 s 1 mes ]
+"18
+[v _hora hora `uc  1 s 1 hora ]
+"19
+[v _min min `uc  1 s 1 min ]
+"20
+[v _seg seg `uc  1 s 1 seg ]
+"22
+[v _DATE_TIME DATE_TIME `[15]uc  1 e 15 0 ]
+"27
+[v _DATE_ERROR DATE_ERROR `C[11]uc  1 e 11 0 ]
+"28
+[v _DATE_TIME_OK DATE_TIME_OK `C[8]uc  1 e 8 0 ]
+"31
+[v _dateTimeReady dateTimeReady `uc  1 e 1 0 ]
+"19 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\DO_COMMAND.c
+[v _i i `uc  1 s 1 i ]
+"20
+[v _totalAnimals totalAnimals `uc  1 s 1 totalAnimals ]
+"21
+[v _wait5sec wait5sec `uc  1 s 1 wait5sec ]
+"9 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\EEPROM.c
+[v _writeAddr writeAddr `[8]uc  1 e 8 0 ]
+"10
+[v _writeVal writeVal `[8]uc  1 e 8 0 ]
+"11
+[v _qHead qHead `uc  1 e 1 0 ]
+"12
+[v _qTail qTail `uc  1 e 1 0 ]
+"15 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\FARM.c
+[v _numAnimals numAnimals `uc  1 s 1 numAnimals ]
+"17
+[v _nameFarm nameFarm `[20]uc  1 s 20 nameFarm ]
+"18
+[v _farmNameSrc farmNameSrc `*.30uc  1 s 1 farmNameSrc ]
+"19
+[v _startSetFarmName startSetFarmName `uc  1 s 1 startSetFarmName ]
+"21
+[v _animalTimes animalTimes `[4]ui  1 s 8 animalTimes ]
+"23
+[v _tempsFarmReady tempsFarmReady `uc  1 s 1 tempsFarmReady ]
+"24
+[v _gameStart gameStart `uc  1 s 1 gameStart ]
+"26
+[v _nuevoAnimal nuevoAnimal `uc  1 s 1 nuevoAnimal ]
+"27
+[v _tipusUltimoAnimal tipusUltimoAnimal `uc  1 s 1 tipusUltimoAnimal ]
+"28
+[v _numPorTipo numPorTipo `[4]uc  1 s 4 numPorTipo ]
+"30
+[v _nuevoAnimalNum nuevoAnimalNum `uc  1 s 1 nuevoAnimalNum ]
+"17 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\game.c
+[v _start start `uc  1 e 1 0 ]
+"18
+[v _estat estat `uc  1 s 1 estat ]
+"17 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\INITIALIZE.c
+[v _startInitialize startInitialize `uc  1 e 1 0 ]
+[s S24 . 3 `uc 1 tipo 1 0 `uc 1 nombre 1 1 `uc 1 num 1 2 ]
+"15 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\LcTLCD.c
+[v _Queue Queue `[4]S24  1 s 12 Queue ]
+"16
+[v _q_size q_size `uc  1 s 1 q_size ]
+"17
+[v _head head `uc  1 s 1 head ]
+"18
+[v _tail tail `uc  1 s 1 tail ]
+"37
+[v _s0 s0 `C[11]uc  1 s 11 s0 ]
+"38
+[v _s1 s1 `C[13]uc  1 s 13 s1 ]
+"39
+[v _s2 s2 `C[5]uc  1 s 5 s2 ]
+"40
+[v _s3 s3 `C[8]uc  1 s 8 s3 ]
+"41
+[v _s4 s4 `C[5]uc  1 s 5 s4 ]
+"42
+[v _s5 s5 `C[7]uc  1 s 7 s5 ]
+"43
+[v _s6 s6 `C[5]uc  1 s 5 s6 ]
+"44
+[v _s7 s7 `C[3]uc  1 s 3 s7 ]
+"45
+[v _s8 s8 `C[7]uc  1 s 7 s8 ]
+"46
+[v _s9 s9 `C[8]uc  1 s 8 s9 ]
+"47
+[v _HEADS HEADS `C[2]*.31Cuc  1 s 2 HEADS ]
+"48
+[v _NOMS NOMS `C[2][4]*.31Cuc  1 s 8 NOMS ]
+"11 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\LED2.c
+[v _heartBeat heartBeat `uc  1 e 1 0 ]
+"22 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\PRODUCTS.c
+[v _estat@PRODUCTS$F1435 estat `uc  1 s 1 estat ]
+"23
+[v _tiempos tiempos `C[4]ui  1 e 8 0 ]
+"25
+[v _handles handles `C[4]uc  1 e 4 0 ]
+"32
+[v _gameStart@PRODUCTS$F1438 gameStart `uc  1 s 1 gameStart ]
+"33
+[v _productos productos `[4]uc  1 s 4 productos ]
+"34
+[v _rebelion rebelion `uc  1 s 1 rebelion ]
+"35
+[v _consumePending consumePending `uc  1 s 1 consumePending ]
+"36
+[v _consumeTipo consumeTipo `uc  1 s 1 consumeTipo ]
+"38
+[v _nuevoProducto nuevoProducto `uc  1 s 1 nuevoProducto ]
+"39
+[v _tipusUltimoProducto tipusUltimoProducto `uc  1 s 1 tipusUltimoProducto ]
+"40
+[v _numUltimoProducto numUltimoProducto `uc  1 s 1 numUltimoProducto ]
+[s S280 . 8 `E2693 1 tipo 1 0 `uc 1 animalTipus 1 1 `uc 1 animalNum 1 2 `uc 1 animalEstat 1 3 `uc 1 prodLlet 1 4 `uc 1 prodPernil 1 5 `uc 1 prodOus 1 6 `uc 1 prodPinzell 1 7 ]
+"6 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\SIO2.c
+[v _cola cola `[2]S280  1 s 16 cola ]
+"7
+[v _head@SIO2$F377 head `uc  1 s 1 head ]
+"8
+[v _tail@SIO2$F378 tail `uc  1 s 1 tail ]
+"9
+[v _msgActual msgActual `*.39S280  1 s 2 msgActual ]
+"10
+[v _si si `uc  1 s 1 si ]
+"11
+[v _subestado subestado `uc  1 s 1 subestado ]
+"12
+[v _estado@SIO2$F382 estado `uc  1 s 1 estado ]
+"13
+[v _tmpNum tmpNum `uc  1 s 1 tmpNum ]
+"14
+[v _tmpNumReady tmpNumReady `uc  1 s 1 tmpNumReady ]
+"15
+[v _numStr numStr `[4]uc  1 s 4 numStr ]
+"43
+[v _msgSimple msgSimple `C[11]*.31Cuc  1 e 11 0 ]
+"57
+[v _animalStr animalStr `C[4]*.31Cuc  1 e 4 0 ]
+[s S1019 Timer 5 `ul 1 TicsInicials 4 0 `uc 1 Busy 1 4 ]
+"19 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\TIMER2.c
+[v _Timers Timers `[19]S1019  1 s 95 Timers ]
+"21
+[v _Tics Tics `VEul  1 s 4 Tics ]
+"20 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\TTL_MANUAL_RECIEVE.c
+[v _rx_dato rx_dato `uc  1 s 1 rx_dato ]
+"21
+[v _newChar newChar `uc  1 s 1 newChar ]
+"22
+[v _ok_recive ok_recive `uc  1 e 1 0 ]
+"27 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\TTL_MANUAL_SEND.c
+[v _estado estado `uc  1 e 1 0 ]
+"28
+[v _dato dato `uc  1 e 1 0 ]
+"29
+[v _ok_transmit ok_transmit `uc  1 e 1 0 ]
+"31
+[v _cola@TTL_MANUAL_SEND$F1808 cola `[8]*.35Cuc  1 s 16 cola ]
+"32
+[v _head@TTL_MANUAL_SEND$F1809 head `uc  1 s 1 head ]
+"33
+[v _tail@TTL_MANUAL_SEND$F1810 tail `uc  1 s 1 tail ]
+"35
+[v _frase_actual frase_actual `*.35Cuc  1 s 2 frase_actual ]
+"36
+[v _index index `uc  1 s 1 index ]
+"48 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"83
+} 0
+"61 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\TTL_MANUAL_SEND.c
+[v _motorSIOSend motorSIOSend `(v  1 e 1 0 ]
+{
+"62
+[v motorSIOSend@bit_pos bit_pos `uc  1 s 1 bit_pos ]
+"108
+} 0
+"46
+[v _HanPasado208usTX HanPasado208usTX `(i  1 e 2 0 ]
+{
+"49
+} 0
+"42 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\TTL_MANUAL_RECIEVE.c
+[v _motorSIORecieve motorSIORecieve `(v  1 e 1 0 ]
+{
+"44
+[v motorSIORecieve@estado estado `uc  1 s 1 estado ]
+"46
+[v motorSIORecieve@bit_pos bit_pos `uc  1 s 1 bit_pos ]
+"105
+} 0
+"37
+[v _HanPasado624us HanPasado624us `(i  1 e 2 0 ]
+{
+} 0
+"36
+[v _HanPasado416us HanPasado416us `(i  1 e 2 0 ]
+{
+} 0
+"110 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\SIO2.c
+[v _motorSIO motorSIO `(v  1 e 1 0 ]
+{
+"146
+[v motorSIO@s s `*.31Cuc  1 a 1 16 ]
+"136
+[v motorSIO@t t `uc  1 a 1 18 ]
+"122
+[v motorSIO@tipo tipo `E2693  1 a 1 19 ]
+"169
+} 0
+"36
+[v _sendStr sendStr `(uc  1 s 1 sendStr ]
+{
+[v sendStr@str str `*.31Cuc  1 p 1 1 ]
+[v sendStr@nextSub nextSub `uc  1 p 1 2 ]
+"41
+} 0
+"18
+[v _sendNum sendNum `(uc  1 s 1 sendNum ]
+{
+[v sendNum@n n `uc  1 p 1 wreg ]
+"20
+[v sendNum@i i `uc  1 a 1 11 ]
+"18
+[v sendNum@n n `uc  1 p 1 wreg ]
+[v sendNum@nextSub nextSub `uc  1 p 1 8 ]
+[v sendNum@terminator terminator `uc  1 p 1 9 ]
+[v sendNum@n n `uc  1 p 1 10 ]
+"34
+} 0
+"70
+[v _SIO_PutChar SIO_PutChar `(v  1 e 1 0 ]
+{
+[v SIO_PutChar@c c `uc  1 p 1 wreg ]
+[v SIO_PutChar@c c `uc  1 p 1 wreg ]
+[v SIO_PutChar@c c `uc  1 p 1 0 ]
+} 0
+"69
+[v _SIO_TXAvail SIO_TXAvail `(uc  1 e 1 0 ]
+{
+} 0
+"36 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\COMMANDS.c
+[v _motorRecieveCommand motorRecieveCommand `(v  1 e 1 0 ]
+{
+"38
+[v motorRecieveCommand@estat estat `uc  1 s 1 estat ]
+"39
+[v motorRecieveCommand@c c `uc  1 s 1 c ]
+"40
+[v motorRecieveCommand@i i `uc  1 s 1 i ]
+"90
+} 0
+"171 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\SIO2.c
+[v _SIO_RXAvail SIO_RXAvail `(uc  1 e 1 0 ]
+{
+} 0
+"172
+[v _SIO_GetChar SIO_GetChar `(uc  1 e 1 0 ]
+{
+} 0
+"81 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\PRODUCTS.c
+[v _motorProducts motorProducts `(v  1 e 1 0 ]
+{
+"112
+[v motorProducts@awake awake `uc  1 a 1 21 ]
+[s S1412 . 6 `uc 1 tipus 1 0 `uc 1 dia 1 1 `uc 1 mes 1 2 `uc 1 hora 1 3 `uc 1 min 1 4 `uc 1 seg 1 5 ]
+"108
+[v motorProducts@a a `S1412  1 a 6 22 ]
+"94
+[v motorProducts@t t `uc  1 a 1 28 ]
+"83
+[v motorProducts@i i `uc  1 s 1 i ]
+"84
+[v motorProducts@tipusActual tipusActual `uc  1 s 1 tipusActual ]
+"151
+} 0
+"108 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\DO_COMMAND.c
+[v _motorParseCommand motorParseCommand `(v  1 e 1 0 ]
+{
+"165
+[v motorParseCommand@idx idx `uc  1 a 1 32 ]
+"110
+[v motorParseCommand@cmd cmd `E2693  1 a 1 33 ]
+"195
+} 0
+"71 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\PRODUCTS.c
+[v _stopRebelion stopRebelion `(v  1 e 1 0 ]
+{
+"73
+} 0
+"13 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\LED2.c
+[v _stopHeartBeat stopHeartBeat `(v  1 e 1 0 ]
+{
+"15
+} 0
+"74 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\PRODUCTS.c
+[v _startRebelion startRebelion `(v  1 e 1 0 ]
+{
+"76
+} 0
+"16 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\LED2.c
+[v _startHeartBeat startHeartBeat `(v  1 e 1 0 ]
+{
+"18
+} 0
+"15 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\ADC2.c
+[v _sleepReset sleepReset `(v  1 e 1 0 ]
+{
+"17
+} 0
+"76 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\DO_COMMAND.c
+[v _handle_GetAnimals handle_GetAnimals `(E2693  1 e 1 0 ]
+{
+[s S1412 . 6 `uc 1 tipus 1 0 `uc 1 dia 1 1 `uc 1 mes 1 2 `uc 1 hora 1 3 `uc 1 min 1 4 `uc 1 seg 1 5 ]
+"97
+[v handle_GetAnimals@an an `S1412  1 a 6 23 ]
+"100
+[v handle_GetAnimals@k k `uc  1 a 1 22 ]
+"99
+[v handle_GetAnimals@numero numero `uc  1 a 1 21 ]
+"98
+[v handle_GetAnimals@estat estat `uc  1 a 1 20 ]
+"107
+} 0
+"90 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\SIO2.c
+[v _SIO_SendDataAnimal SIO_SendDataAnimal `(v  1 e 1 0 ]
+{
+[v SIO_SendDataAnimal@tipus tipus `uc  1 p 1 wreg ]
+[s S280 . 8 `E2693 1 tipo 1 0 `uc 1 animalTipus 1 1 `uc 1 animalNum 1 2 `uc 1 animalEstat 1 3 `uc 1 prodLlet 1 4 `uc 1 prodPernil 1 5 `uc 1 prodOus 1 6 `uc 1 prodPinzell 1 7 ]
+"91
+[v SIO_SendDataAnimal@m m `S280  1 a 8 6 ]
+"90
+[v SIO_SendDataAnimal@tipus tipus `uc  1 p 1 wreg ]
+[v SIO_SendDataAnimal@num num `uc  1 p 1 3 ]
+[v SIO_SendDataAnimal@estat estat `uc  1 p 1 4 ]
+[v SIO_SendDataAnimal@F2790 F2790 `S280  1 s 8 F2790 ]
+[v SIO_SendDataAnimal@tipus tipus `uc  1 p 1 5 ]
+"97
+} 0
+"74
+[v _SIO_HasSpace SIO_HasSpace `(uc  1 e 1 0 ]
+{
+} 0
+"61 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\EEPROM.c
+[v _EEPROM_GetEstat EEPROM_GetEstat `(uc  1 e 1 0 ]
+{
+"64
+[v EEPROM_GetEstat@diffMin diffMin `i  1 a 2 17 ]
+[s S1412 . 6 `uc 1 tipus 1 0 `uc 1 dia 1 1 `uc 1 mes 1 2 `uc 1 hora 1 3 `uc 1 min 1 4 `uc 1 seg 1 5 ]
+"61
+[v EEPROM_GetEstat@a a `S1412  1 p 6 0 ]
+[v EEPROM_GetEstat@horaAct horaAct `uc  1 p 1 6 ]
+"62
+[v EEPROM_GetEstat@minAct minAct `uc  1 p 1 7 ]
+[v EEPROM_GetEstat@segAct segAct `uc  1 p 1 8 ]
+"72
+} 0
+"18 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\ADC2.c
+[v _getSleep getSleep `(uc  1 e 1 0 ]
+{
+"20
+} 0
+"54 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\PRODUCTS.c
+[v _getNumPinzells getNumPinzells `(uc  1 e 1 0 ]
+{
+"56
+} 0
+"51
+[v _getNumPernil getNumPernil `(uc  1 e 1 0 ]
+{
+"53
+} 0
+"48
+[v _getNumLlet getNumLlet `(uc  1 e 1 0 ]
+{
+"50
+} 0
+"57
+[v _getNumHuevos getNumHuevos `(uc  1 e 1 0 ]
+{
+"59
+} 0
+"42 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\DO_COMMAND.c
+[v _findAnimalIndex findAnimalIndex `(uc  1 s 1 findAnimalIndex ]
+{
+[s S1412 . 6 `uc 1 tipus 1 0 `uc 1 dia 1 1 `uc 1 mes 1 2 `uc 1 hora 1 3 `uc 1 min 1 4 `uc 1 seg 1 5 ]
+"59
+[v findAnimalIndex@an an `S1412  1 a 6 18 ]
+"57
+[v findAnimalIndex@j j `uc  1 a 1 29 ]
+"51
+[v findAnimalIndex@k k `uc  1 a 1 28 ]
+"43
+[v findAnimalIndex@tipus tipus `uc  1 a 1 27 ]
+"56
+[v findAnimalIndex@count count `uc  1 a 1 26 ]
+"55
+[v findAnimalIndex@total total `uc  1 a 1 25 ]
+"53
+[v findAnimalIndex@num num `uc  1 a 1 24 ]
+"42
+[v findAnimalIndex@data data `*.39uc  1 p 2 14 ]
+"66
+} 0
+"37 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\FARM.c
+[v _getNumTotalAnimals getNumTotalAnimals `(uc  1 e 1 0 ]
+{
+} 0
+"16 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X/EEPROM.h
+[s S1412 . 6 `uc 1 tipus 1 0 `uc 1 dia 1 1 `uc 1 mes 1 2 `uc 1 hora 1 3 `uc 1 min 1 4 `uc 1 seg 1 5 ]
+"44 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\EEPROM.c
+[v _EEPROM_ReadAnimal EEPROM_ReadAnimal `(S1412  1 e 6 0 ]
+{
+[v EEPROM_ReadAnimal@index index `uc  1 p 1 wreg ]
+"45
+[v EEPROM_ReadAnimal@a a `S1412  1 a 6 8 ]
+"46
+[v EEPROM_ReadAnimal@base base `uc  1 a 1 7 ]
+"44
+[v EEPROM_ReadAnimal@index index `uc  1 p 1 wreg ]
+"46
+[v EEPROM_ReadAnimal@index index `uc  1 p 1 6 ]
+"59
+} 0
+"77 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\PRODUCTS.c
+[v _consume consume `(v  1 e 1 0 ]
+{
+[v consume@tipo tipo `uc  1 p 1 wreg ]
+[v consume@tipo tipo `uc  1 p 1 wreg ]
+[v consume@tipo tipo `uc  1 p 1 0 ]
+"80
+} 0
+"99 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\SIO2.c
+[v _SIO_SendDataProducts SIO_SendDataProducts `(v  1 e 1 0 ]
+{
+[v SIO_SendDataProducts@llet llet `uc  1 p 1 wreg ]
+[s S280 . 8 `E2693 1 tipo 1 0 `uc 1 animalTipus 1 1 `uc 1 animalNum 1 2 `uc 1 animalEstat 1 3 `uc 1 prodLlet 1 4 `uc 1 prodPernil 1 5 `uc 1 prodOus 1 6 `uc 1 prodPinzell 1 7 ]
+"101
+[v SIO_SendDataProducts@m m `S280  1 a 8 7 ]
+"99
+[v SIO_SendDataProducts@llet llet `uc  1 p 1 wreg ]
+[v SIO_SendDataProducts@pernil pernil `uc  1 p 1 3 ]
+"100
+[v SIO_SendDataProducts@ous ous `uc  1 p 1 4 ]
+[v SIO_SendDataProducts@pinzell pinzell `uc  1 p 1 5 ]
+[v SIO_SendDataProducts@F2797 F2797 `S280  1 s 8 F2797 ]
+[v SIO_SendDataProducts@llet llet `uc  1 p 1 6 ]
+"108
+} 0
+"40 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\EEPROM.c
+[v _EEPROM_WriteAnimalSleep EEPROM_WriteAnimalSleep `(v  1 e 1 0 ]
+{
+[v EEPROM_WriteAnimalSleep@index index `uc  1 p 1 wreg ]
+[v EEPROM_WriteAnimalSleep@index index `uc  1 p 1 wreg ]
+[v EEPROM_WriteAnimalSleep@index index `uc  1 p 1 4 ]
+"42
+} 0
+"67 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\DO_COMMAND.c
+[v _DO_Reset DO_Reset `(v  1 e 1 0 ]
+{
+"75
+} 0
+"63 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\PRODUCTS.c
+[v _resetProducts resetProducts `(v  1 e 1 0 ]
+{
+"64
+[v resetProducts@i i `uc  1 a 1 0 ]
+"70
+} 0
+"23 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\game.c
+[v _resetGame resetGame `(v  1 e 1 0 ]
+{
+"26
+} 0
+"39 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\FARM.c
+[v _resetFarm resetFarm `(v  1 e 1 0 ]
+{
+"46
+} 0
+"82 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\DATA_TIME.c
+[v _resetDataTime resetDataTime `(v  1 e 1 0 ]
+{
+"84
+} 0
+"19 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\INITIALIZE.c
+[v _DO_Initialize DO_Initialize `(v  1 e 1 0 ]
+{
+"22
+} 0
+"25 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\DO_COMMAND.c
+[v _COMMAND_Parse COMMAND_Parse `(E2693  1 e 1 0 ]
+{
+"27
+[v COMMAND_Parse@c c `*.39uc  1 a 2 2 ]
+"40
+} 0
+"26 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\COMMANDS.c
+[v _getCommand getCommand `(*.39uc  1 e 2 0 ]
+{
+"28
+} 0
+"19
+[v _getCmdReady getCmdReady `(uc  1 e 1 0 ]
+{
+"22
+} 0
+"25 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\INITIALIZE.c
+[v _motorInitialize motorInitialize `(v  1 e 1 0 ]
+{
+"84
+[v motorInitialize@scaled scaled `ui  1 a 2 8 ]
+"33
+[v motorInitialize@data data `*.39uc  1 a 2 6 ]
+"26
+[v motorInitialize@estat estat `uc  1 s 1 estat ]
+"27
+[v motorInitialize@field field `[15]uc  1 s 15 field ]
+"28
+[v motorInitialize@fi fi `uc  1 s 1 fi ]
+"29
+[v motorInitialize@field_num field_num `uc  1 s 1 field_num ]
+"30
+[v motorInitialize@i i `uc  1 s 1 i ]
+"31
+[v motorInitialize@result result `ui  1 s 2 result ]
+"32
+[v motorInitialize@si si `uc  1 s 1 si ]
+"124
+} 0
+"50 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\FARM.c
+[v _setTempsFarmsOk setTempsFarmsOk `(v  1 e 1 0 ]
+{
+} 0
+"29 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\COMMANDS.c
+[v _resetCommand resetCommand `(v  1 e 1 0 ]
+{
+"33
+} 0
+"32 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\FARM.c
+[v _getFarmNameReady getFarmNameReady `(uc  1 e 1 0 ]
+{
+} 0
+"23 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\COMMANDS.c
+[v _getData getData `(*.39uc  1 e 2 0 ]
+{
+"25
+} 0
+"59 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\FARM.c
+[v _DO_SetPigTime DO_SetPigTime `(v  1 e 1 0 ]
+{
+[v DO_SetPigTime@time time `ui  1 p 2 0 ]
+} 0
+"58
+[v _DO_SetHorseTime DO_SetHorseTime `(v  1 e 1 0 ]
+{
+[v DO_SetHorseTime@time time `ui  1 p 2 0 ]
+} 0
+"60
+[v _DO_SetHenTime DO_SetHenTime `(v  1 e 1 0 ]
+{
+[v DO_SetHenTime@time time `ui  1 p 2 0 ]
+} 0
+"52
+[v _DO_SetFarmName DO_SetFarmName `(v  1 e 1 0 ]
+{
+[v DO_SetFarmName@field field `*.30uc  1 p 1 0 ]
+"55
+} 0
+"57
+[v _DO_SetCowTime DO_SetCowTime `(v  1 e 1 0 ]
+{
+[v DO_SetCowTime@time time `ui  1 p 2 0 ]
+} 0
+"20 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\LED2.c
+[v _motorHeartBeat motorHeartBeat `(v  1 e 1 0 ]
+{
+"21
+[v motorHeartBeat@estat estat `uc  1 s 1 estat ]
+"22
+[v motorHeartBeat@duty duty `uc  1 s 1 duty ]
+"23
+[v motorHeartBeat@pwm_tick pwm_tick `uc  1 s 1 pwm_tick ]
+"59
+} 0
+"27 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\game.c
+[v _motorGame motorGame `(v  1 e 1 0 ]
+{
+"61
+} 0
+"49 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\FARM.c
+[v _tempsFarmsOk tempsFarmsOk `(uc  1 e 1 0 ]
+{
+} 0
+"60 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\PRODUCTS.c
+[v _setStartProducts setStartProducts `(v  1 e 1 0 ]
+{
+"62
+} 0
+"48 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\FARM.c
+[v _setStartFarm setStartFarm `(v  1 e 1 0 ]
+{
+} 0
+"78 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\DATA_TIME.c
+[v _dateTimeOk dateTimeOk `(uc  1 e 1 0 ]
+{
+"81
+} 0
+"72 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\FARM.c
+[v _motorFarm motorFarm `(v  1 e 1 0 ]
+{
+"73
+[v motorFarm@estat estat `uc  1 s 1 estat ]
+"74
+[v motorFarm@i i `uc  1 s 1 i ]
+"80
+[v motorFarm@t t `uc  1 s 1 t ]
+"114
+} 0
+"62
+[v _crearAnimal crearAnimal `(v  1 e 1 0 ]
+{
+[v crearAnimal@tipus tipus `uc  1 p 1 wreg ]
+[v crearAnimal@tipus tipus `uc  1 p 1 wreg ]
+[v crearAnimal@tipus tipus `uc  1 p 1 7 ]
+"70
+} 0
+"32 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\EEPROM.c
+[v _EEPROM_WriteAnimal EEPROM_WriteAnimal `(v  1 e 1 0 ]
+{
+[v EEPROM_WriteAnimal@index index `uc  1 p 1 wreg ]
+"33
+[v EEPROM_WriteAnimal@base base `uc  1 a 1 6 ]
+"32
+[v EEPROM_WriteAnimal@index index `uc  1 p 1 wreg ]
+[v EEPROM_WriteAnimal@tipus tipus `uc  1 p 1 4 ]
+[v EEPROM_WriteAnimal@index index `uc  1 p 1 5 ]
+"38
+} 0
+"26
+[v _eepromWriteHMS eepromWriteHMS `(v  1 s 1 eepromWriteHMS ]
+{
+[v eepromWriteHMS@base base `uc  1 p 1 wreg ]
+[v eepromWriteHMS@base base `uc  1 p 1 wreg ]
+[v eepromWriteHMS@base base `uc  1 p 1 3 ]
+"30
+} 0
+"18
+[v _eepromEnqueue eepromEnqueue `(v  1 e 1 0 ]
+{
+[v eepromEnqueue@addr addr `uc  1 p 1 wreg ]
+"19
+[v eepromEnqueue@next next `uc  1 a 1 2 ]
+"18
+[v eepromEnqueue@addr addr `uc  1 p 1 wreg ]
+[v eepromEnqueue@val val `uc  1 p 1 0 ]
+[v eepromEnqueue@addr addr `uc  1 p 1 1 ]
+"24
+} 0
+"49 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\DATA_TIME.c
+[v _DT_GetSeg DT_GetSeg `(uc  1 e 1 0 ]
+{
+"51
+} 0
+"45
+[v _DT_GetMin DT_GetMin `(uc  1 e 1 0 ]
+{
+"47
+} 0
+"41
+[v _DT_GetHora DT_GetHora `(uc  1 e 1 0 ]
+{
+"43
+} 0
+"14 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\EEPROM.c
+[v _EEPROM_IsBusy EEPROM_IsBusy `(uc  1 e 1 0 ]
+{
+"16
+} 0
+"74
+[v _motorEEprom motorEEprom `(v  1 e 1 0 ]
+{
+"75
+[v motorEEprom@estat estat `uc  1 s 1 estat ]
+"100
+} 0
+"86 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\DATA_TIME.c
+[v _motorDataTime motorDataTime `(v  1 e 1 0 ]
+{
+"95
+[v motorDataTime@c c `uc  1 a 1 13 ]
+"97
+[v motorDataTime@i i `uc  1 s 1 i ]
+"128
+} 0
+"38 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\TTL_MANUAL_SEND.c
+[v _uartTX uartTX `(v  1 e 1 0 ]
+{
+[v uartTX@d d `uc  1 p 1 wreg ]
+[v uartTX@d d `uc  1 p 1 wreg ]
+"39
+[v uartTX@tmp tmp `[2]uc  1 s 2 tmp ]
+[v uartTX@d d `uc  1 p 1 3 ]
+"43
+} 0
+"50
+[v _SIO_Manual_SetFrase SIO_Manual_SetFrase `(v  1 e 1 0 ]
+{
+"51
+[v SIO_Manual_SetFrase@next next `uc  1 a 1 2 ]
+"50
+[v SIO_Manual_SetFrase@msg msg `*.35uc  1 p 2 0 ]
+"60
+} 0
+"53 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\DATA_TIME.c
+[v _incrementarTiempo incrementarTiempo `(v  1 e 1 0 ]
+{
+"75
+} 0
+"24 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\TTL_MANUAL_RECIEVE.c
+[v _getCharSioManual getCharSioManual `(uc  1 e 1 0 ]
+{
+"26
+} 0
+"28
+[v _charRecivedSioManual charRecivedSioManual `(uc  1 e 1 0 ]
+{
+"35
+} 0
+"20 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\SELECT_BUTTON.c
+[v _motorButton motorButton `(v  1 e 1 0 ]
+{
+"22
+[v motorButton@estat estat `uc  1 s 1 estat ]
+"56
+} 0
+"58
+[v _buttonPressed buttonPressed `(v  1 e 1 0 ]
+{
+"62
+} 0
+"50 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\ADC2.c
+[v _motorADC motorADC `(v  1 e 1 0 ]
+{
+"52
+[v motorADC@estat estat `uc  1 s 1 estat ]
+"53
+[v motorADC@valor valor `ui  1 s 2 valor ]
+"54
+[v motorADC@canal canal `uc  1 s 1 canal ]
+"55
+[v motorADC@joystickX joystickX `ui  1 s 2 joystickX ]
+"56
+[v motorADC@joystickY joystickY `ui  1 s 2 joystickY ]
+"57
+[v motorADC@blockLeft blockLeft `uc  1 s 1 blockLeft ]
+"58
+[v motorADC@blockRight blockRight `uc  1 s 1 blockRight ]
+"59
+[v motorADC@blockUp blockUp `uc  1 s 1 blockUp ]
+"60
+[v motorADC@blockDown blockDown `uc  1 s 1 blockDown ]
+"146
+} 0
+"84 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\SIO2.c
+[v _SIO_SendSimple SIO_SendSimple `(v  1 e 1 0 ]
+{
+[v SIO_SendSimple@tipo tipo `E2693  1 p 1 wreg ]
+[s S280 . 8 `E2693 1 tipo 1 0 `uc 1 animalTipus 1 1 `uc 1 animalNum 1 2 `uc 1 animalEstat 1 3 `uc 1 prodLlet 1 4 `uc 1 prodPernil 1 5 `uc 1 prodOus 1 6 `uc 1 prodPinzell 1 7 ]
+"85
+[v SIO_SendSimple@m m `S280  1 a 8 4 ]
+"84
+[v SIO_SendSimple@tipo tipo `E2693  1 p 1 wreg ]
+[v SIO_SendSimple@F2784 F2784 `S280  1 s 8 F2784 ]
+[v SIO_SendSimple@tipo tipo `E2693  1 p 1 3 ]
+"88
+} 0
+"76
+[v _SIO_SetMsg SIO_SetMsg `(uc  1 e 1 0 ]
+{
+"77
+[v SIO_SetMsg@nh nh `uc  1 a 1 2 ]
+[s S280 . 8 `E2693 1 tipo 1 0 `uc 1 animalTipus 1 1 `uc 1 animalNum 1 2 `uc 1 animalEstat 1 3 `uc 1 prodLlet 1 4 `uc 1 prodPernil 1 5 `uc 1 prodOus 1 6 `uc 1 prodPinzell 1 7 ]
+"76
+[v SIO_SetMsg@msg msg `*.30S280  1 p 1 1 ]
+"82
+} 0
+"72
+[v _nextHead nextHead `(uc  1 e 1 0 ]
+{
+[v nextHead@h h `uc  1 p 1 wreg ]
+[v nextHead@h h `uc  1 p 1 wreg ]
+[v nextHead@h h `uc  1 p 1 0 ]
+} 0
+"32 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\ADC2.c
+[v _AD_IniciaConversio AD_IniciaConversio `(v  1 e 1 0 ]
+{
+"35
+} 0
+"37
+[v _AD_HiHaMostra AD_HiHaMostra `(uc  1 e 1 0 ]
+{
+"43
+} 0
+"45
+[v _AD_GetMostra AD_GetMostra `(ui  1 e 2 0 ]
+{
+"48
+} 0
+"94 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\main.c
+[v _initTimers initTimers `(v  1 e 1 0 ]
+{
+"98
+[v initTimers@i i `uc  1 a 1 22 ]
+"96
+[v initTimers@timer timer `[19]uc  1 a 19 3 ]
+"103
+} 0
+"41 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\TIMER2.c
+[v _TI_NewTimer TI_NewTimer `(uc  1 e 1 0 ]
+{
+"42
+[v TI_NewTimer@Comptador Comptador `uc  1 a 1 2 ]
+"41
+[v TI_NewTimer@TimerHandle TimerHandle `*.30uc  1 p 1 0 ]
+"49
+} 0
+"104 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\main.c
+[v _initPorts initPorts `(v  1 e 1 0 ]
+{
+"121
+} 0
+"84
+[v _initInterrupts initInterrupts `(v  1 e 1 0 ]
+{
+"93
+} 0
+"30 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\TIMER2.c
+[v _TI_Init TI_Init `(v  1 e 1 0 ]
+{
+"31
+[v TI_Init@counter counter `uc  1 a 1 0 ]
+"39
+} 0
+"61 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\SIO2.c
+[v _SIO_Init SIO_Init `(v  1 e 1 0 ]
+{
+"67
+} 0
+"115 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\LcTLCD.c
+[v _MotorLCD MotorLCD `(v  1 e 1 0 ]
+{
+"207
+[v MotorLCD@i i `uc  1 a 1 39 ]
+"167
+[v MotorLCD@d d `uc  1 a 1 38 ]
+"168
+[v MotorLCD@m m `uc  1 a 1 37 ]
+[s S24 . 3 `uc 1 tipo 1 0 `uc 1 nombre 1 1 `uc 1 num 1 2 ]
+"133
+[v MotorLCD@n_253 n `S24  1 a 3 34 ]
+"126
+[v MotorLCD@n n `S24  1 a 3 31 ]
+"116
+[v MotorLCD@state state `uc  1 s 1 state ]
+"117
+[v MotorLCD@next_state next_state `uc  1 s 1 next_state ]
+[s S24 . 3 `uc 1 tipo 1 0 `uc 1 nombre 1 1 `uc 1 num 1 2 ]
+"118
+[v MotorLCD@current current `S24  1 s 3 current ]
+"119
+[v MotorLCD@str str `*.35Cuc  1 s 2 str ]
+"120
+[v MotorLCD@index index `uc  1 s 1 index ]
+"121
+[v MotorLCD@num_buf num_buf `[11]uc  1 s 11 num_buf ]
+"122
+[v MotorLCD@idleShown idleShown `uc  1 s 1 idleShown ]
+"240
+} 0
+"20 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\game.c
+[v _startGameOk startGameOk `(uc  1 e 1 0 ]
+{
+"22
+} 0
+"43 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\PRODUCTS.c
+[v _resetNuevoProducto resetNuevoProducto `(v  1 e 1 0 ]
+{
+} 0
+"33 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\FARM.c
+[v _resetNuevoAnimal resetNuevoAnimal `(v  1 e 1 0 ]
+{
+} 0
+"34 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X/LcTLCD.h
+[s S24 . 3 `uc 1 tipo 1 0 `uc 1 nombre 1 1 `uc 1 num 1 2 ]
+"29 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\LcTLCD.c
+[v _pop pop `(S24  1 s 3 pop ]
+{
+"30
+[v pop@n n `S24  1 a 3 3 ]
+"34
+} 0
+"44 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\PRODUCTS.c
+[v _hayNuevoProducto hayNuevoProducto `(uc  1 e 1 0 ]
+{
+} 0
+"35 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\FARM.c
+[v _hayNuevoAnimal hayNuevoAnimal `(uc  1 e 1 0 ]
+{
+} 0
+"45 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\PRODUCTS.c
+[v _getTipusUltimoProducto getTipusUltimoProducto `(uc  1 e 1 0 ]
+{
+} 0
+"36 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\FARM.c
+[v _getTipusUltimoAnimal getTipusUltimoAnimal `(uc  1 e 1 0 ]
+{
+} 0
+"46 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\PRODUCTS.c
+[v _getNumUltimoProducto getNumUltimoProducto `(uc  1 e 1 0 ]
+{
+} 0
+"31 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\FARM.c
+[v _getNumUltimoAnimal getNumUltimoAnimal `(uc  1 e 1 0 ]
+{
+} 0
+"34
+[v _getFarmName getFarmName `(*.39uc  1 e 2 0 ]
+{
+} 0
+"22 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\LcTLCD.c
+[v _addMsgToQueue addMsgToQueue `(v  1 e 1 0 ]
+{
+[s S24 . 3 `uc 1 tipo 1 0 `uc 1 nombre 1 1 `uc 1 num 1 2 ]
+[v addMsgToQueue@n n `S24  1 p 3 0 ]
+"27
+} 0
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+{
+[v ___lbmod@dividend dividend `uc  1 p 1 wreg ]
+"6
+[v ___lbmod@rem rem `uc  1 a 1 7 ]
+"7
+[v ___lbmod@counter counter `uc  1 a 1 6 ]
+"4
+[v ___lbmod@dividend dividend `uc  1 p 1 wreg ]
+[v ___lbmod@divisor divisor `uc  1 p 1 4 ]
+"9
+[v ___lbmod@dividend dividend `uc  1 p 1 5 ]
+"18
+} 0
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+{
+[v ___lbdiv@dividend dividend `uc  1 p 1 wreg ]
+"6
+[v ___lbdiv@quotient quotient `uc  1 a 1 3 ]
+"7
+[v ___lbdiv@counter counter `uc  1 a 1 2 ]
+"4
+[v ___lbdiv@dividend dividend `uc  1 p 1 wreg ]
+[v ___lbdiv@divisor divisor `uc  1 p 1 0 ]
+"9
+[v ___lbdiv@dividend dividend `uc  1 p 1 1 ]
+"26
+} 0
+"110 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\LcTLCD.c
+[v _LcPutChar LcPutChar `(v  1 e 1 0 ]
+{
+[v LcPutChar@c c `uc  1 p 1 wreg ]
+[v LcPutChar@c c `uc  1 p 1 wreg ]
+[v LcPutChar@c c `uc  1 p 1 17 ]
+"112
+} 0
+"106
+[v _LcGotoXY LcGotoXY `(v  1 e 1 0 ]
+{
+[v LcGotoXY@Column Column `uc  1 p 1 wreg ]
+[v LcGotoXY@Column Column `uc  1 p 1 wreg ]
+[v LcGotoXY@Row Row `uc  1 p 1 17 ]
+[v LcGotoXY@Column Column `uc  1 p 1 18 ]
+"108
+} 0
+"101
+[v _LcClear LcClear `(v  1 e 1 0 ]
+{
+"104
+} 0
+"37 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\DATA_TIME.c
+[v _DT_GetMes DT_GetMes `(uc  1 e 1 0 ]
+{
+"39
+} 0
+"33
+[v _DT_GetDia DT_GetDia `(uc  1 e 1 0 ]
+{
+"35
+} 0
+"83 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\LcTLCD.c
+[v _LcInit LcInit `(v  1 e 1 0 ]
+{
+[v LcInit@columns columns `uc  1 p 1 17 ]
+"97
+} 0
+"65
+[v _cantaByte cantaByte `(v  1 s 1 cantaByte ]
+{
+[v cantaByte@val val `uc  1 p 1 wreg ]
+[v cantaByte@val val `uc  1 p 1 wreg ]
+[v cantaByte@rs rs `uc  1 p 1 15 ]
+[v cantaByte@val val `uc  1 p 1 16 ]
+"77
+} 0
+"59
+[v _esperaMs esperaMs `(v  1 s 1 esperaMs ]
+{
+[v esperaMs@ms ms `ui  1 p 2 13 ]
+"62
+} 0
+"51 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\TIMER2.c
+[v _TI_ResetTics TI_ResetTics `(v  1 e 1 0 ]
+{
+[v TI_ResetTics@TimerHandle TimerHandle `uc  1 p 1 wreg ]
+[v TI_ResetTics@TimerHandle TimerHandle `uc  1 p 1 wreg ]
+[v TI_ResetTics@TimerHandle TimerHandle `uc  1 p 1 0 ]
+"53
+} 0
+"56
+[v _TI_GetTics TI_GetTics `(ul  1 e 4 0 ]
+{
+[v TI_GetTics@TimerHandle TimerHandle `uc  1 p 1 wreg ]
+"57
+[v TI_GetTics@CopiaTicsActual CopiaTicsActual `ul  1 a 4 8 ]
+"56
+[v TI_GetTics@TimerHandle TimerHandle `uc  1 p 1 wreg ]
+[v TI_GetTics@TimerHandle TimerHandle `uc  1 p 1 12 ]
+"59
+} 0
+"54 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\LcTLCD.c
+[v _cantaNibble cantaNibble `(v  1 s 1 cantaNibble ]
+{
+[v cantaNibble@c c `uc  1 p 1 wreg ]
+[v cantaNibble@c c `uc  1 p 1 wreg ]
+[v cantaNibble@c c `uc  1 p 1 1 ]
+"56
+} 0
+"21 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\ADC2.c
+[v _AD_Init AD_Init `(v  1 e 1 0 ]
+{
+[v AD_Init@quinCanal quinCanal `uc  1 p 1 wreg ]
+[v AD_Init@quinCanal quinCanal `uc  1 p 1 wreg ]
+"23
+[v AD_Init@quinCanal quinCanal `uc  1 p 1 0 ]
+"30
+} 0
+"38 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\main.c
+[v _MyRSI MyRSI `IIH(v  1 e 1 0 ]
+{
+"42
+} 0
+"23 C:\Users\alvar\MPLABXProjects\faseB.X (2)\faseB.X\TIMER2.c
+[v _RSI_Timer0 RSI_Timer0 `(v  1 e 1 0 ]
+{
+"28
+} 0

@@ -1,0 +1,4 @@
+build/default/production/TTL_MANUAL_RECIEVE.p1:  \
+TTL_MANUAL_RECIEVE.c  \
+TTL_MANUAL_RECIEVE.h  \
+TIMER2.h 

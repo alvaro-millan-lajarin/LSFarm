@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/CREATE_STRING_TO_SEND.c</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/LED2.c</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/FARM.c</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/COMMANDS.c</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/SIO2.c</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/FARM.h</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/CREATE_STRING_TO_SEND.h</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/LED2.h</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/SIO2.h</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/TTL_MANUAL_RECIEVE.h</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/TTL_MANUAL_RECIEVE.c</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/INITIALIZE.h</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/COMMANDS.h</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/TIMER2.h</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/LcTLCD.h</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/TIMER2.c</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/main.c</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/ADC2.h</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/game.c</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/game.h</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/ADC2.c</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/PRODUCTS.h</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/EEPROM.h</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/nbproject/Makefile-impl.mk</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/TTL_MANUAL_SEND.c</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/LcTLCD.c</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/TTL_MANUAL_SEND.h</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/DO_COMMAND.c</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/SELECT_BUTTON.h</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/DATA_TIME.c</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/INITIALIZE.c</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/DATA_TIME.h</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/DO_COMMAND.h</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/PRODUCTS.c</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/EEPROM.c</file>
+            <file>file:/C:/Users/alvar/MPLABXProjects/faseB.X/SELECT_BUTTON.c</file>
+        </group>
+    </open-files>
+</project-private>
