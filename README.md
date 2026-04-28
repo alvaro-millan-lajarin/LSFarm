@@ -12,7 +12,7 @@ Proyecto embebido para microcontrolador **PIC18** desarrollado con **MPLAB X IDE
 |---|---|
 | Pantalla LCD durante el juego | ![descripción](screenshots/lcd_juego.png) |
 | Montaje del hardware | ![descripción](screenshots/lcd_juego.png) |
-| Interfaz serie / terminal | ![descripción](screenshots/interfaz.png) |
+| Interfaz java| ![descripción](screenshots/interfaz.png) |
 
 ---
 
